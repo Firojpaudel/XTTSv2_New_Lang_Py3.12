@@ -4,6 +4,8 @@ This guide provides instructions for finetuning XTTSv2 on a new language, using 
 
 [UPDATE] A finetuned model for Vietnamese is now available at [anhnh2002/vnTTS](https://huggingface.co/anhnh2002/vnTTS) on Hugging Face
 
+>[!Note]:
+>This is a fork that supports finetuning on kaggle/colab (python 3.12)
 
 ## Table of Contents
 1. [Installation](#1-installation)
@@ -18,8 +20,11 @@ This guide provides instructions for finetuning XTTSv2 on a new language, using 
 
 First, clone the repository and install the necessary dependencies:
 
+>[!important]:
+>Don't forget to create a venv.
+
 ```
-git clone https://github.com/nguyenhoanganh2002/XTTSv2-Finetuning-for-New-Languages.git
+git clone https://github.com/Firojpaudel/XTTSv2_New_Lang_Py3.12.git
 cd XTTSv2-Finetuning-for-New-Languages
 pip install -r requirements.txt
 ```
